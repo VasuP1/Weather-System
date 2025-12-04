@@ -1,0 +1,152 @@
+[
+  {
+    "timestamp": "08:00",
+    "rainfall": 2,
+    "windSpeed": 5,
+    "temperature": 20
+  },
+  {
+    "timestamp": "08:30",
+    "rainfall": 2,
+    "windSpeed": 6,
+    "temperature": 20.5
+  },
+  {
+    "timestamp": "09:00",
+    "rainfall": 3,
+    "windSpeed": 8,
+    "temperature": 21
+  },
+  {
+    "timestamp": "09:30",
+    "rainfall": 5,
+    "windSpeed": 12,
+    "temperature": 21.5
+  },
+  {
+    "timestamp": "10:00",
+    "rainfall": 8,
+    "windSpeed": 15,
+    "temperature": 22
+  },
+  {
+    "timestamp": "10:30",
+    "rainfall": 12,
+    "windSpeed": 20,
+    "temperature": 22.5
+  },
+  {
+    "timestamp": "11:00",
+    "rainfall": 15,
+    "windSpeed": 25,
+    "temperature": 23
+  },
+  {
+    "timestamp": "11:30",
+    "rainfall": 20,
+    "windSpeed": 35,
+    "temperature": 22
+  },
+  {
+    "timestamp": "12:00",
+    "rainfall": 35,
+    "windSpeed": 45,
+    "temperature": 21
+  },
+  {
+    "timestamp": "12:30",
+    "rainfall": 50,
+    "windSpeed": 60,
+    "temperature": 20
+  },
+  {
+    "timestamp": "13:00",
+    "rainfall": 80,
+    "windSpeed": 90,
+    "temperature": 19
+  },
+  {
+    "timestamp": "13:30",
+    "rainfall": 100,
+    "windSpeed": 120,
+    "temperature": 18
+  },
+  {
+    "timestamp": "14:00",
+    "rainfall": 80,
+    "windSpeed": 90,
+    "temperature": 18.5
+  },
+  {
+    "timestamp": "14:30",
+    "rainfall": 45,
+    "windSpeed": 55,
+    "temperature": 19
+  },
+  {
+    "timestamp": "15:00",
+    "rainfall": 30,
+    "windSpeed": 40,
+    "temperature": 20
+  },
+  {
+    "timestamp": "15:30",
+    "rainfall": 20,
+    "windSpeed": 30,
+    "temperature": 21
+  },
+  {
+    "timestamp": "16:00",
+    "rainfall": 10,
+    "windSpeed": 20,
+    "temperature": 22
+  },
+  {
+    "timestamp": "16:30",
+    "rainfall": 5,
+    "windSpeed": 15,
+    "temperature": 22.5
+  },
+  {
+    "timestamp": "17:00",
+    "rainfall": 2,
+    "windSpeed": 10,
+    "temperature": 23
+  },
+  {
+    "timestamp": "17:30",
+    "rainfall": 0,
+    "windSpeed": 8,
+    "temperature": 22
+  },
+  {
+    "timestamp": "18:00",
+    "rainfall": 0,
+    "windSpeed": 5,
+    "temperature": 21
+  },
+  {
+    "timestamp": "18:30",
+    "rainfall": 0,
+    "windSpeed": 5,
+    "temperature": 20
+  },
+  {
+    "timestamp": "19:00",
+    "rainfall": 0,
+    "windSpeed": 4,
+    "temperature": 19
+  },
+  {
+    "timestamp": "19:30",
+    "rainfall": 0,
+    "windSpeed": 3,
+    "temperature": 18
+  },
+  {
+    "timestamp": "20:00",
+    "rainfall": 0,
+    "windSpeed": 2,
+    "temperature": 17
+  }
+]
