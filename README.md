@@ -1,16 +1,65 @@
-# React + Vite
+# Weather Early Warning System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+The **Weather Early Warning System** is a web application designed to analyze weather data and provide early warnings for potential weather crises. It visualizes weather trends and alerts users to critical conditions, helping to mitigate risks associated with severe weather events.
 
-Currently, two official plugins are available:
+## Project Objectives
+*   **Analyze Weather Data**: Process historical and real-time weather data to identify patterns.
+*   **Calculate Risk Levels**: Utilize a sliding window algorithm to determine risk levels (Low, Medium, High) based on weather parameters.
+*   **Visualize Trends**: Display interactive charts and visual alerts to effectively communicate weather conditions and warnings.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Structure
 
-## React Compiler
+```
+/Weather-System
+│
+├── src/
+│   ├── components/      # Reusable UI components (WeatherCard, RiskIndicator, etc.)
+│   ├── data/            # Data sources and mock weather data
+│   ├── utils/           # Utility functions for risk calculation and data formatting
+│   ├── App.jsx          # Main application component
+│   ├── main.jsx         # Entry point for the React application
+│   └── index.css        # Global styles and Tailwind imports (if applicable)
+│
+├── public/              # Static assets
+│   └── weather_app_screenshot.png
+│
+├── package.json         # Project dependencies and scripts
+├── vite.config.js       # Vite configuration
+└── README.md            # Project documentation
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Technologies Used
+*   **React**: Frontend library for building the user interface.
+*   **Vite**: Fast build tool and development server.
+*   **Recharts**: Library for rendering data visualizations.
+*   **Lucide React**: Icon library for UI elements.
 
-## Expanding the ESLint configuration
+### Required libraries:
+To install all necessary dependencies, run:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+### How to Run
+Follow these steps to get the project up and running:
+
+*   Clone or download this repository
+*   Navigate to the project folder
+*   Run the development server using the following commands
+
+```bash
+git clone <repository-url>
+cd Weather-System
+npm run dev
+```
+
+## How to Test
+*   **Port Conflicts**: If port `5173` is in use, Vite will automatically try the next available port (e.g., `5174`). Check the terminal output for the correct URL.
+*   **Node Version**: Ensure you are using a compatible version of Node.js (v16 or higher is recommended).
+*   **Linting**: To check for code quality issues, run:
+    ```bash
+    npm run lint
+    ```
+
