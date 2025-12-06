@@ -5,6 +5,8 @@ import RiskMonitor from './RiskMonitor';
 import WeatherChart from './WeatherChart';
 import DataLog from './DataLog';
 import Controls from './Controls';
+import EvacuationRoute from './EvacuationRoute';
+
 
 const Dashboard = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -75,6 +77,11 @@ const Dashboard = () => {
                 {/* Risk Monitor (Hero Widget) */}
                 <div style={{ height: '250px' }}>
                     <RiskMonitor riskScore={currentRiskScore} riskLevel={currentRiskLevel} />
+                </div>
+
+                {/* Evacuation Route Planner (Graph + Dijkstra) */}
+                <div style={{ marginTop: '3rem'}}>
+                    <EvacuationRoute />
                 </div>
 
                 {/* Chart */}
